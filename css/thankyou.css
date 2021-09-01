@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    height: 100%;
+    display: grid;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    /* border: 1px solid #32E0C4; */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    background-color: #EEEEEE;
+    color: #000000;
+    height: 100%;
+    height: 100%;
+    display: grid;
+    text-align: center;
+}
+
+.thankyou {
+    margin: auto;
+}
+
+.thankyou-content p {
+    font-size: 1.5rem;
+}
+
+.to-return {
+    text-decoration: none;
+    color: #0D7377;
+    padding: .5rem;
+}
+
+.to-return:hover {
+    background-color: #0D7377;
+    color: #EEEEEE;
+    border: none;
+}
