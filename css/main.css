@@ -430,7 +430,6 @@ body::-webkit-scrollbar-thumb {
     background-color: #EEEEEE;
     color: #000000;
     overflow: scroll;
-
 }
 
 .popup-details h2 {
@@ -683,7 +682,7 @@ body::-webkit-scrollbar-thumb {
 
     .popup-details {
         width: 80%;
-        padding: 2rem 5rem 0rem 5rem;
+        padding: 2rem 2rem 0rem 5rem;
     }
 
     .services-btn {
@@ -1027,6 +1026,7 @@ body::-webkit-scrollbar-thumb {
         background-color: #EEEEEE;
         color: #000000;
         overflow: scroll;
+        padding: 0rem 2rem 0rem 2rem;
     }
 
 }
