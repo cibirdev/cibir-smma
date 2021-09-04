@@ -17,6 +17,7 @@ $(document).ready(function () {
     $(".enter").click(function () {
         $(".menu").slideDown();
         $('body').css('overflow', 'hidden');
+        $('.cursor').css('border', '1px solid #000000');
     });
     $(".exit").click(function () {
         $(".menu").slideUp();
@@ -26,11 +27,11 @@ $(document).ready(function () {
         $(".menu").slideUp();
         $('body').css('overflow', 'auto');
     });
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
-          $(".navbar").css("background-color", "#000000");
+            $(".navbar").css("background-color", "#000000");
         } else {
-          $(".navbar").css("background-color", "transparent");
+            $(".navbar").css("background-color", "transparent");
         }
     });
     $(".web-design-link").click(function () {
@@ -124,13 +125,13 @@ $(document).ready(function () {
         $(".seo").slideUp(100);
         $('body').css('overflow', 'auto');
     });
-    $(".faq1").click(function(){
+    $(".faq1").click(function () {
         $(".faq1-ansr").slideToggle(500);
     });
-    $(".faq2").click(function(){
+    $(".faq2").click(function () {
         $(".faq2-ansr").slideToggle(500);
     });
-    $(".faq3").click(function(){
+    $(".faq3").click(function () {
         $(".faq3-ansr").slideToggle(500);
     });
 });
