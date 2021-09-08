@@ -61,7 +61,7 @@ nav button i {
 }
 
 /*animated cursor*/
-.cursor {
+/* .cursor {
     position: fixed;
     z-index: 999;
     width: 30px;
@@ -98,7 +98,7 @@ nav button i {
 
 .cursor2-hover {
     background-color: #dbedf3;
-}
+} */
 
 
 .point-logo {
